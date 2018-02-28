@@ -1,0 +1,155 @@
+/*----------------HEADER--------------------*/
+div.clear{
+	clear:both;
+}
+body{
+	padding:0;
+	margin:0;
+}
+div.container{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header{
+	/*float:left;*/
+	position:fixed;
+	width:100%;
+	background-color: lightgrey;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 2px 4px;
+	z-index: 1;
+}
+img#logo{
+	display:inline-block;
+	left:500px;
+	float:left;
+	margin:16px 10px;
+	height: 30px; 
+
+	border:2px solid black;
+}
+header h1{
+	font-size:20px;
+	margin-bottom: 6px;
+	font-family: "Arial", Arial, sans-serif;
+	/*vertical-align: center;*/
+/*	padding-bottom: 6px;
+*/}
+.title{
+	width:300px;
+	/*background-color: red;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+div.icons{
+	display:block;
+	font-size:16px;
+	position:absolute;
+	right:20px;
+	color:darkred;
+}
+i{
+	color:darkred;
+}
+/*------------------------PAGE CONTENT----------------------*/
+div.content{
+	padding-top: 100px;
+	width:1300px;
+	margin:auto;
+}
+.line{
+	display:block;
+	width:100%;
+	border-bottom: 3px solid darkred;
+}
+img{
+	border: 5px solid darkred;
+	
+}
+section{
+	width:1100px;
+	margin:auto;
+}
+section.one img{
+	width: 60%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+section.three img{
+	display:inline-block;
+	width:48%;
+	float:left;
+}
+img#top{
+	display:block;
+	float:none;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+img#right{
+	margin-left:10px;
+}
+.content a{
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+	color:darkred;
+}
+a:visted{
+	color:darkgrey;
+}
+a:hover{
+	color:grey;
+}
+h1{
+	font-size: 30px;
+	font-family: "Arial", Arial, sans-serif;
+	color:darkred;
+	width:300px;
+	margin: auto;
+	padding-bottom: 20px;
+
+}
+
+h2{
+	font-size: 18px;
+	font-family: "Arial", Arial, sans-serif;
+	color:grey;
+	position: relative;
+	top: -20px;
+	font-variant: small-caps;
+}
+/*.circle{
+	font-size:20px;
+}*/
+
+h3{
+	font-weight: normal;
+	font-family: "Arial", Arial, sans-serif;
+}
+p{
+	text-align: justify;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	color:black;
+	font-family: "Arial", Arial, sans-serif;
+	position: relative;
+	
+}
+
+p#dataset{
+	text-align: center;
+}
+footer{
+	width:1000px;
+	margin:auto;
+	align-content: center;
+}
